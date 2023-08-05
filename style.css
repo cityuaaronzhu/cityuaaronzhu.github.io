@@ -14,8 +14,8 @@
       nav a {
         text-decoration: none;
         display: block;
-        padding-left:  10%;
-        padding-right: 10%;
+        padding-left:  12%;
+        padding-right: 12%;
         text-align: center;
         background-color: rgb(230, 235, 235);
         color: #464141;
@@ -25,6 +25,16 @@
         background-color: #777777;
         color: #ffffff;
       }
+
+    .mobile-menu {
+        text-decoration: none;
+        display: block;
+        position: absolute;
+        text-align: center;
+        background-color: rgb(230, 235, 235);
+        color: #464141;
+        margin: 0;
+   }
 
 
     body {
