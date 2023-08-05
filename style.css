@@ -26,29 +26,7 @@
         color: #ffffff;
       }
 
-   @media (max-width: 600px) {
-  .container {
-    text-align: center;
-  }
 
-  .container-nav {
-    flex-direction: column;
-  }
-
-  nav a {
-        text-decoration: none;
-        display: block;
-        padding:0.5em, 0;
-        text-align: center;
-        background-color: rgb(230, 235, 235);
-        color: #464141;
-        margin: 0;
-  }
-
-  nav li {
-    margin: 0.8em 0;
-  }
-}
 
 
     body {
@@ -76,6 +54,20 @@
       body {
         font-size: 0.9em;
         padding: 1em;
+      }
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      nav a {
+        text-decoration: none;
+        display: block;
+        padding-left:  5%;
+        padding-right: 5%;
+        text-align: center;
+        background-color: rgb(230, 235, 235);
+        color: #464141;
+        margin: 0;
       }
     }
     @media print {
