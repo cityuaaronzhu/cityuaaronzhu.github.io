@@ -26,16 +26,20 @@
         color: #ffffff;
       }
 
-    .mobile-menu {
-        text-decoration: none;
-        display: block;
-        position: absolute;
-        text-align: center;
-        background-color: rgb(230, 235, 235);
-        color: #464141;
-        margin: 0;
-   }
-
+   @media (max-width: 600px) {
+  #mobile-menu-btn {
+    display: block;
+  }
+  nav p {
+    display: none;
+  }
+  .mobile-menu {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
 
     body {
       margin: 0 auto;
