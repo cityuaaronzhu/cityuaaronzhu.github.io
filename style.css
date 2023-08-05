@@ -14,7 +14,8 @@
       nav a {
         text-decoration: none;
         display: block;
-        padding: 12px 78px;
+        padding-left:  12%;
+        padding-right: 12%;
         text-align: center;
         background-color: rgb(230, 235, 235);
         color: #464141;
