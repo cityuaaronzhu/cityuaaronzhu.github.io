@@ -3,7 +3,7 @@
     html {
       line-height: 1.5;
       font-family: linux-lin-r;
-      font-size: 20px;
+      font-size: 16px;
       color: #1a1a1a;
       background-color: #fdfdfd;
     }
@@ -14,8 +14,8 @@
       nav a {
         text-decoration: none;
         display: block;
-        padding-left:  10%;
-        padding-right: 10%;
+        padding-left:  11%;
+        padding-right: 11%;
         text-align: center;
         background-color: rgb(250, 204, 15);
         color: #464141;
