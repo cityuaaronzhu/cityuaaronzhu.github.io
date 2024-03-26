@@ -18,14 +18,10 @@
         padding-left:  10%;
         padding-right: 12%;
         text-align: center;
-        background-color: rgb(250, 204, 15);
         color: #464141;
         margin: 0;
       }
-      nav a:hover {
-        background-color: rgb(10,10,255);
-        color: #ffffff;
-      }
+    
 
  
 
